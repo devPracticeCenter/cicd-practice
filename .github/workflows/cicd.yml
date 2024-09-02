@@ -34,7 +34,7 @@ jobs:
 
     - 
         name: SSH Remote Commands
-        uses: appleboy/ssh-action@v0.1.4        
+        uses: appleboy/ssh-action@v1.0.3     
         with:
             host: mc.modutech.win         
             username: ${{ secrets.SSH_USERNAME }}
